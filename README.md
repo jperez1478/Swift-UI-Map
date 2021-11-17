@@ -1,6 +1,6 @@
 # Swift-UI-Map
 
-In this project i will be learning about the mapkit foundamentals in swift UI 
+In this project I will be enhacning my skills more  about the mapkit foundamentals in swift UI using Mapkit also I will be using it in UIKit mode.
 
 1. Swift UI Maps 
 2. Control Interactions
