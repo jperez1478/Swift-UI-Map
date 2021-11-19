@@ -11,9 +11,6 @@ struct LocationPhoto: View {
     //MARK: -Properties
     let photoName:String
     
-    
-    
-    
     //MARK: -Body
     var body: some View {
         Image(photoName)

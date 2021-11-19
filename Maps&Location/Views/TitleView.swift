@@ -5,16 +5,27 @@
 //  Created by Jessica Perez on 11/17/21.
 //
 
+
 import SwiftUI
 
 struct TitleView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  let locationName: String
+
+  var body: some View {
+    Text(locationName)
+        .font(.largeTitle)
+        .fontWeight(.heavy)
+        .multilineTextAlignment(.center)
+        .lineLimit(3)
+        .foregroundColor(.white)
+        .frame(maxWidth: .infinity)
+        .shadow(color: .black, radius: 1, x: 1, y: -2)
+  }
 }
 
 struct TitleView_Previews: PreviewProvider {
-    static var previews: some View {
-        TitleView()
-    }
+  static var previews: some View {
+    TitleView(locationName: "Location Name")
+      .background(Color.gray)
+  }
 }

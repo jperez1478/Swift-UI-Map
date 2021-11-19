@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import MapKit
 
 @main
 struct Maps_LocationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(places: MapDirectory().places)
         }
     }
 }
